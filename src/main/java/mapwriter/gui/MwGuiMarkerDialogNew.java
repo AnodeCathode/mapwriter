@@ -295,7 +295,7 @@ public class MwGuiMarkerDialogNew extends GuiScreen
 			this.markerManager.addMarker(this.markerName, this.markerGroup,
 					this.markerX, this.markerY, this.markerZ, this.dimension,
 					colour);
-			this.markerManager.setVisibleGroupName(this.markerGroup);
+			//this.markerManager.setVisibleGroupName(this.markerGroup);
 			this.markerManager.update();
 		}
 		return inputCorrect;
